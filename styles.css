@@ -25,4 +25,16 @@ button {
   text-decoration: none;
   display: inline-block;
   font-size: 16px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: rgb(46, 46, 46);
+}
+
+
+button:active {
+  background-color: #333;
+  border-color: #333;
+  color: #eee;
 }
