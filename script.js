@@ -1,7 +1,7 @@
 let generate = document.querySelector("#generate")
 let showName = document.querySelector("#showName");
 
-let names = ["Britney Spears", "Tom Hanks", "Jim Carrey", "Nicholas Cage", "Rory Johnson", "Mariah Carey", "Anthony Albanese", "Keanu Reeves", "Kanye West"]
+let names = ["Sydney Harbour Bridge", "COVID-19", "Eucalyptus Tree", "Chocolate", "Rory Johnson", "Basketball", "Chai Tea", "Wedding Ring", "Kanye West"]
 
 showName.textContent = "?"
 
@@ -30,6 +30,6 @@ generate?.addEventListener('click', event => {
 const getRandomName = () => {
     console.log('generate name')
     const ranNum = Math.floor(Math.random() * names.length)
-    showName.style.color = "red";
+    showName.style.color = "#66ff00";
     setName(names[ranNum])
 }
