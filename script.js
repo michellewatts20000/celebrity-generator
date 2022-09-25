@@ -1,7 +1,7 @@
 let generate = document.querySelector("#generate")
 let showName = document.querySelector("#showName");
 
-let names = ["Sydney Harbour Bridge", "COVID-19", "Eucalyptus Tree", "Chocolate", "Rory Johnson", "Basketball", "Chai Tea", "Wedding Ring", "Clarinet", "Red Wine", "Top Hat", "Fred Flinstone", "Anthony Albanese", "Mobile Phone", "Bus Driver", "Soccer", "Guitar", "Keyboard", "Mouse", "Birthday Cake"]
+let names = ["Sydney Harbour Bridge", "COVID-19", "Eucalyptus Tree", "Chocolate", "Rory Johnson", "Medha Joshi", "Coffee", "Wedding Ring", "Clarinet", "Red Wine", "Top Hat", "Fred Flinstone", "Anthony Albanese", "Mobile Phone", "Bus Driver", "Soccer", "Guitar", "Keyboard", "Mouse", "Birthday Cake", "Paperclip", "Chai Tea", "Carrom", "Badminton"]
 
 showName.textContent = "?"
 
